@@ -1,0 +1,51 @@
+# ==========================
+# Python & Environment
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+env/
+venv/
+ENV/
+.venv/
+pip-wheel-metadata/
+.pytest_cache/
+.tox/
+.coverage
+htmlcov/
+*.log
+.DS_Store
+
+# ==========================
+# Environment & Secrets
+# ==========================
+.env
+.env.*
+*.secret
+*.key
+*.pem
+*.json
+!*.example.json  # allow example files
+!*.example.env   # allow example .envs
+
+# ==========================
+# IDE / Editor Files
+# ==========================
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# ==========================
+# OS & Misc
+# ==========================
+Thumbs.db
+Desktop.ini
