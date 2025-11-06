@@ -1,51 +1,42 @@
-# ==========================
-# Python & Environment
-# ==========================
+# ================================================
+# Solana Sniper Bot v1.0 — .gitignore
+# ================================================
+
+# Python build / cache
 __pycache__/
 *.py[cod]
 *$py.class
 *.pyo
 *.pyd
-*.so
 *.egg
 *.egg-info/
 dist/
 build/
 env/
 venv/
-ENV/
 .venv/
+ENV/
 pip-wheel-metadata/
 .pytest_cache/
-.tox/
-.coverage
-htmlcov/
-*.log
-.DS_Store
 
-# ==========================
-# Environment & Secrets
-# ==========================
+# Environment & secrets
 .env
 .env.*
 *.secret
 *.key
 *.pem
 *.json
-!*.example.json  # allow example files
-!*.example.env   # allow example .envs
+!*.example.json
+!*.example.env
 
-# ==========================
-# IDE / Editor Files
-# ==========================
+# Session files
+sniper_session*
+
+# Logs
+*.log
+
+# IDEs / OS
 .vscode/
 .idea/
-*.iml
-*.sublime-project
-*.sublime-workspace
-
-# ==========================
-# OS & Misc
-# ==========================
+.DS_Store
 Thumbs.db
-Desktop.ini
